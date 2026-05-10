@@ -1,0 +1,11 @@
+{
+  "name": "realistic-aerodynamics-cfd-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "dev:backend": "cargo run --manifest-path backend/Cargo.toml",
+    "check:backend": "cargo check --manifest-path backend/Cargo.toml"
+  }
+}
