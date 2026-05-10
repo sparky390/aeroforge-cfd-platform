@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Realistic Aerodynamics CFD Platform
+# AeroForge CFD Platform
 
 A browser-based aerodynamic visualization platform for uploading 3D models, running an OpenFOAM-style CFD pipeline, watching live debug logs, and inspecting airflow in a futuristic engineering dashboard.
 
