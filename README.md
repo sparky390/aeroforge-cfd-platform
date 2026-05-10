@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Realistic Aerodynamics CFD Platform
 
 A browser-based aerodynamic visualization platform for uploading 3D models, running an OpenFOAM-style CFD pipeline, watching live debug logs, and inspecting airflow in a futuristic engineering dashboard.
@@ -36,3 +37,6 @@ simpleFoam
 ```
 
 If those commands are not available, the backend logs warnings and generates a lightweight aerodynamic vector/pressure field so the UI remains demo-ready.
+=======
+# aeroforge-cfd-platform
+>>>>>>> 9504504ed58686ed7d462ca948ed393f801099e3
