@@ -1,41 +1,452 @@
-# AeroForge CFD Platform
+# 🚀 AeroForge CFD Platform
 
-A browser-based aerodynamic visualization platform for uploading 3D models, running an OpenFOAM-style CFD pipeline, watching live debug logs, and inspecting airflow in a futuristic engineering dashboard.
+> A futuristic real-time Computational Fluid Dynamics (CFD) simulation platform built with a modern React + Rust stack.
 
-## Stack
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Frontend](https://img.shields.io/badge/frontend-React%20%2B%20TypeScript-61DAFB)
+![Backend](https://img.shields.io/badge/backend-Rust-orange)
+![3D](https://img.shields.io/badge/3D-Three.js-black)
+![Status](https://img.shields.io/badge/status-Experimental-success)
 
-- Frontend: React, TypeScript, Vite, TailwindCSS, React Three Fiber, Three.js, Framer Motion
-- Backend: Rust, Axum, Tokio, Serde
-- CFD pipeline: `blockMesh`, `snappyHexMesh`, `simpleFoam` with `kOmegaSST`
+---
 
-## Local Run
+## 🌪️ Overview
 
-```bash
-npm --prefix frontend install
-npm --prefix frontend run dev
+AeroForge CFD Platform is an advanced aerodynamic simulation environment designed for visualizing airflow, turbulence, pressure zones, and drag behavior around 3D models.
+
+The platform combines:
+
+* ⚡ High-performance Rust backend
+* 🎨 Futuristic Pixel2Code-inspired UI
+* 🌐 Real-time simulation logs
+* 🧠 CFD-style airflow analysis pipeline
+* 🛰️ Interactive 3D visualization using Three.js
+* 📊 Velocity & pressure field rendering
+* 🔍 Developer-focused debugging console
+
+This project is designed to simulate the feel of a modern aerospace-grade CFD analysis system while remaining lightweight and developer-friendly.
+
+---
+
+# ✨ Features
+
+## 🎯 Core Features
+
+* Upload 3D models (`OBJ`, `STL`, `GLTF`, `GLB`)
+* Run aerodynamic simulations
+* Interactive 3D viewport
+* Velocity field visualization
+* Pressure field visualization
+* Real-time simulation diagnostics
+* Wind speed controls
+* Model rotation controls
+* Simulation status tracking
+* REST API backend
+* Fully responsive futuristic UI
+
+---
+
+## 🧠 Simulation Pipeline
+
+The backend follows a CFD-inspired workflow:
+
+```text
+3D Model Upload
+       ↓
+Mesh Validation
+       ↓
+Simulation Job Creation
+       ↓
+Airflow Processing
+       ↓
+Pressure & Velocity Calculation
+       ↓
+Result Generation
+       ↓
+Frontend Visualization
 ```
 
-In a second terminal:
+---
+
+# 🖼️ Tech Stack
+
+## Frontend
+
+| Technology        | Purpose               |
+| ----------------- | --------------------- |
+| React 18          | UI Framework          |
+| TypeScript        | Type Safety           |
+| Vite              | Build Tool            |
+| Three.js          | 3D Rendering          |
+| React Three Fiber | React-based 3D Engine |
+| Framer Motion     | UI Animations         |
+| TailwindCSS       | Styling               |
+| Lucide React      | Icons                 |
+
+---
+
+## Backend
+
+| Technology | Purpose                  |
+| ---------- | ------------------------ |
+| Rust       | High-performance backend |
+| Axum       | Web framework            |
+| Tokio      | Async runtime            |
+| Serde      | Serialization            |
+| Tower HTTP | CORS & static serving    |
+| UUID       | Job management           |
+
+---
+
+# 📁 Project Structure
 
 ```bash
-cargo run --manifest-path backend/Cargo.toml
+AeroForge-CFD-Platform/
+│
+├── backend/
+│   ├── src/
+│   │   ├── main.rs
+│   │   ├── models.rs
+│   │   └── pipeline.rs
+│   └── Cargo.toml
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.tsx
+│   │   ├── api.ts
+│   │   ├── types.ts
+│   │   └── styles.css
+│   │
+│   ├── package.json
+│   └── vite.config.ts
+│
+├── jobs/
+├── package.json
+└── README.md
 ```
 
-The frontend expects the backend at `http://127.0.0.1:8080`. You can override this with `VITE_API_URL`.
+---
 
-## OpenFOAM Notes
+# ⚙️ Installation
 
-The backend writes a complete case under `jobs/<job_id>/case`, including wind tunnel boundaries, `kOmegaSST`, `blockMeshDict`, `snappyHexMeshDict`, and `simpleFoam` controls.
-
-If OpenFOAM commands are installed and available on `PATH`, the backend runs:
+## 1️⃣ Clone Repository
 
 ```bash
-blockMesh
-snappyHexMesh -overwrite
-simpleFoam
+git clone https://github.com/sparky390/aeroforge-cfd-platform.git
+
+cd aeroforge-cfd-platform
 ```
 
-If those commands are not available, the backend logs warnings and generates a lightweight aerodynamic vector/pressure field so the UI remains demo-ready.
-=======
-# aeroforge-cfd-platform
->>>>>>> 9504504ed58686ed7d462ca948ed393f801099e3
+---
+
+## 2️⃣ Install Frontend Dependencies
+
+```bash
+cd frontend
+npm install
+```
+
+---
+
+## 3️⃣ Install Rust Backend
+
+Install Rust:
+
+```bash
+https://www.rust-lang.org/tools/install
+```
+
+Verify installation:
+
+```bash
+rustc --version
+cargo --version
+```
+
+---
+
+# ▶️ Running the Project
+
+## Start Backend
+
+From project root:
+
+```bash
+npm run dev:backend
+```
+
+Backend runs on:
+
+```bash
+http://127.0.0.1:8080
+```
+
+---
+
+## Start Frontend
+
+In another terminal:
+
+```bash
+npm run dev:frontend
+```
+
+Frontend runs on:
+
+```bash
+http://127.0.0.1:5173
+```
+
+---
+
+# 🧪 API Endpoints
+
+| Method | Endpoint            | Description             |
+| ------ | ------------------- | ----------------------- |
+| GET    | `/health`           | Backend health check    |
+| POST   | `/upload`           | Upload 3D model         |
+| POST   | `/simulate/:job_id` | Start simulation        |
+| GET    | `/logs/:job_id`     | Fetch debug logs        |
+| GET    | `/result/:job_id`   | Get simulation results  |
+| GET    | `/model/:job_id`    | Retrieve uploaded model |
+
+---
+
+# 🌊 Simulation Modes
+
+## Velocity Visualization
+
+Displays airflow speed distribution around the model.
+
+Useful for:
+
+* Aerodynamic optimization
+* Drag analysis
+* Airflow understanding
+* Wind tunnel visualization
+
+---
+
+## Pressure Visualization
+
+Displays pressure zones generated by airflow interaction.
+
+Useful for:
+
+* Pressure hotspot detection
+* Surface stress analysis
+* Lift/drag estimation
+* Vehicle body optimization
+
+---
+
+# 🧩 Supported 3D Formats
+
+| Format | Supported |
+| ------ | --------- |
+| OBJ    | ✅         |
+| STL    | ✅         |
+| GLTF   | ✅         |
+| GLB    | ✅         |
+
+---
+
+# 🛠️ Developer Debug Console
+
+AeroForge includes a real-time diagnostics console for simulation monitoring.
+
+Logs include:
+
+* Upload events
+* Mesh validation
+* Simulation stages
+* Pipeline progress
+* Result generation
+* Error tracking
+
+Example:
+
+```text
+[INFO] AeroForge diagnostics online
+[INFO] Mesh validation completed
+[INFO] Initializing airflow solver
+[INFO] Calculating pressure fields
+[INFO] Exporting simulation results
+```
+
+---
+
+# 🧠 Future Roadmap
+
+## Planned Features
+
+* Real OpenFOAM integration
+* GPU-accelerated simulation
+* Live particle airflow rendering
+* Turbulence models
+* Heatmap overlays
+* Lift & drag coefficient calculations
+* Supersonic airflow simulation
+* Multi-object simulations
+* Cloud-based processing
+* User authentication
+* Saved simulation history
+* Exportable CFD reports
+* VR visualization mode
+
+---
+
+# 📸 UI Design Philosophy
+
+The UI is heavily inspired by:
+
+* Cyberpunk interfaces
+* Aerospace diagnostics systems
+* Real-world engineering dashboards
+* Pixel2Code aesthetic design
+* Sci-fi simulation terminals
+
+Key goals:
+
+* Maximum visual clarity
+* Immersive developer experience
+* High-tech simulation environment
+* Smooth animation pipeline
+
+---
+
+# 🚀 Why Rust?
+
+Rust provides:
+
+* Extremely fast execution
+* Memory safety
+* Concurrency performance
+* Reliable async handling
+* Backend scalability
+
+Perfect for simulation-heavy applications.
+
+---
+
+# 🔒 File Validation
+
+The backend validates uploaded files before processing.
+
+Allowed extensions:
+
+```text
+.obj
+.stl
+.gltf
+.glb
+```
+
+Large uploads are supported using multipart handling.
+
+---
+
+# 📊 Example Use Cases
+
+## Automotive
+
+* Car body airflow analysis
+* Drag optimization
+* Racing aerodynamics
+
+## Aerospace
+
+* Drone airflow simulation
+* Wing profile testing
+* Turbulence analysis
+
+## Industrial Design
+
+* Product airflow testing
+* Cooling system analysis
+* Shape optimization
+
+## Education
+
+* Learning CFD concepts
+* Simulation visualization
+* Engineering demonstrations
+
+---
+
+# 🧠 Inspiration
+
+Inspired by:
+
+* NASA visualization systems
+* Formula 1 telemetry dashboards
+* Wind tunnel simulation software
+* Unreal Engine UI concepts
+* Modern aerospace software pipelines
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+## Steps
+
+```bash
+# Fork repository
+# Create feature branch
+# Commit changes
+# Push branch
+# Open pull request
+```
+
+Ideas for contribution:
+
+* Better visualization
+* Real CFD integration
+* Physics accuracy improvements
+* UI enhancements
+* Performance optimizations
+
+---
+
+# 📜 License
+
+MIT License
+
+Feel free to use, modify, and build upon this project.
+
+---
+
+# 👨‍💻 Author
+
+## Surya S
+
+Full Stack Developer • CFD Enthusiast • 3D Visualization Builder
+
+* 🌐 GitHub: [https://github.com/sparky390](https://github.com/sparky390)
+* 🏍️ Instagram: @sparky.390
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repository
+* 🍴 Fork the project
+* 🧠 Share feedback
+* 🚀 Contribute improvements
+
+---
+
+# 🔥 Final Vision
+
+AeroForge aims to become a futuristic browser-based aerodynamic simulation ecosystem that makes CFD visualization more interactive, immersive, and accessible to developers, students, engineers, and creators.
+
+---
+
+## ⚡ AeroForge CFD Platform
+
+> "Where engineering meets visualization."
