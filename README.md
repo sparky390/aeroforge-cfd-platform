@@ -425,8 +425,7 @@ Feel free to use, modify, and build upon this project.
 
 Full Stack Developer • CFD Enthusiast • 3D Visualization Builder
 
-* 🌐 GitHub: [https://github.com/sparky390](https://github.com/sparky390)
-* 🏍️ Instagram: @sparky.390
+*  Instagram: @sparky.fpv
 
 ---
 
