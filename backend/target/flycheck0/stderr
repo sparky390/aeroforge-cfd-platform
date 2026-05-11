@@ -1,5 +1,5 @@
-   0.067712700s  INFO prepare_target{force=false package_id=aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend) target="aerodynamics-cfd-backend"}: cargo::core::compiler::fingerprint: fingerprint error for aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend)/Check { test: false }/TargetInner { name: "aerodynamics-cfd-backend", doc: true, ..: with_path("D:\\Project\\Codex\\v2\\aeroforge-cfd-platform\\backend\\src\\main.rs", Edition2021) }
-   0.068164900s  INFO prepare_target{force=false package_id=aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend) target="aerodynamics-cfd-backend"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\aerodynamics-cfd-backend-b798ee29f91107aa\bin-aerodynamics-cfd-backend`
+   0.174069000s  INFO prepare_target{force=false package_id=aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend) target="aerodynamics-cfd-backend"}: cargo::core::compiler::fingerprint: fingerprint error for aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend)/Check { test: false }/TargetInner { name: "aerodynamics-cfd-backend", doc: true, ..: with_path("D:\\Project\\Codex\\v2\\aeroforge-cfd-platform\\backend\\src\\main.rs", Edition2021) }
+   0.174146200s  INFO prepare_target{force=false package_id=aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend) target="aerodynamics-cfd-backend"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\aerodynamics-cfd-backend-b798ee29f91107aa\bin-aerodynamics-cfd-backend`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.079586200s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/Check { test: false }/TargetInner { ..: lib_target("anyhow", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\src\\lib.rs", Edition2021) }
-   0.079859900s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\anyhow-d5a1056d7cd6f7a4\lib-anyhow`
+   0.182151900s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/Check { test: false }/TargetInner { ..: lib_target("anyhow", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\src\\lib.rs", Edition2021) }
+   0.182178700s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="anyhow"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\anyhow-d5a1056d7cd6f7a4\lib-anyhow`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -55,8 +55,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.080267000s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\build.rs", Edition2021) }
-   0.080279800s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\anyhow-a48b68e05fc8a82b\run-build-script-build-script-build`
+   0.182644100s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\build.rs", Edition2021) }
+   0.182659400s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\anyhow-a48b68e05fc8a82b\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -86,8 +86,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.080349700s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\build.rs", Edition2021) }
-   0.080355000s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\anyhow-086d3b16f35102cd\build-script-build-script-build`
+   0.182766100s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for anyhow v1.0.102/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anyhow-1.0.102\\build.rs", Edition2021) }
+   0.182776100s  INFO prepare_target{force=false package_id=anyhow v1.0.102 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\anyhow-086d3b16f35102cd\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -117,8 +117,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.080703500s  INFO prepare_target{force=false package_id=axum v0.8.9 target="axum"}: cargo::core::compiler::fingerprint: fingerprint error for axum v0.8.9/Check { test: false }/TargetInner { ..: lib_target("axum", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\axum-0.8.9\\src\\lib.rs", Edition2021) }
-   0.080728800s  INFO prepare_target{force=false package_id=axum v0.8.9 target="axum"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\axum-b05ab3df9e41c32c\lib-axum`
+   0.183116100s  INFO prepare_target{force=false package_id=axum v0.8.9 target="axum"}: cargo::core::compiler::fingerprint: fingerprint error for axum v0.8.9/Check { test: false }/TargetInner { ..: lib_target("axum", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\axum-0.8.9\\src\\lib.rs", Edition2021) }
+   0.183128600s  INFO prepare_target{force=false package_id=axum v0.8.9 target="axum"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\axum-b05ab3df9e41c32c\lib-axum`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -146,8 +146,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.081246600s  INFO prepare_target{force=false package_id=axum-core v0.5.6 target="axum_core"}: cargo::core::compiler::fingerprint: fingerprint error for axum-core v0.5.6/Check { test: false }/TargetInner { ..: lib_target("axum_core", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\axum-core-0.5.6\\src\\lib.rs", Edition2021) }
-   0.081258700s  INFO prepare_target{force=false package_id=axum-core v0.5.6 target="axum_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\axum-core-8e745f4c00a2691e\lib-axum_core`
+   0.329846400s  INFO prepare_target{force=false package_id=hyper v1.9.0 target="hyper"}: cargo::core::compiler::fingerprint: fingerprint error for hyper v1.9.0/Check { test: false }/TargetInner { ..: lib_target("hyper", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hyper-1.9.0\\src\\lib.rs", Edition2021) }
+   0.329873100s  INFO prepare_target{force=false package_id=hyper v1.9.0 target="hyper"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\hyper-f97ce23c5dda8ca0\lib-hyper`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -176,8 +176,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.081590700s  INFO prepare_target{force=false package_id=bytes v1.11.1 target="bytes"}: cargo::core::compiler::fingerprint: fingerprint error for bytes v1.11.1/Check { test: false }/TargetInner { ..: lib_target("bytes", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bytes-1.11.1\\src\\lib.rs", Edition2021) }
-   0.081602100s  INFO prepare_target{force=false package_id=bytes v1.11.1 target="bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\bytes-c3c17a43986c30d8\lib-bytes`
+   0.352415200s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="httparse"}: cargo::core::compiler::fingerprint: fingerprint error for httparse v1.10.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("httparse", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httparse-1.10.1\\src\\lib.rs", Edition2018) }
+   0.352447300s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="httparse"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\httparse-f46a7ee487881b8c\lib-httparse`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -207,415 +207,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.081831100s  INFO prepare_target{force=false package_id=futures-core v0.3.32 target="futures_core"}: cargo::core::compiler::fingerprint: fingerprint error for futures-core v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_core", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-core-0.3.32\\src\\lib.rs", Edition2018) }
-   0.081841800s  INFO prepare_target{force=false package_id=futures-core v0.3.32 target="futures_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\futures-core-811e4482c970f2f9\lib-futures_core`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.082063400s  INFO prepare_target{force=false package_id=http v1.4.0 target="http"}: cargo::core::compiler::fingerprint: fingerprint error for http v1.4.0/Check { test: false }/TargetInner { ..: lib_target("http", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\http-1.4.0\\src\\lib.rs", Edition2021) }
-   0.082084200s  INFO prepare_target{force=false package_id=http v1.4.0 target="http"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\http-8fe602d69a71adf6\lib-http`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.082307400s  INFO prepare_target{force=false package_id=itoa v1.0.18 target="itoa"}: cargo::core::compiler::fingerprint: fingerprint error for itoa v1.0.18/Check { test: false }/TargetInner { ..: lib_target("itoa", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itoa-1.0.18\\src\\lib.rs", Edition2021) }
-   0.082316600s  INFO prepare_target{force=false package_id=itoa v1.0.18 target="itoa"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\itoa-ca0e467fb48f4ad4\lib-itoa`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.082567200s  INFO prepare_target{force=false package_id=http-body v1.0.1 target="http_body"}: cargo::core::compiler::fingerprint: fingerprint error for http-body v1.0.1/Check { test: false }/TargetInner { ..: lib_target("http_body", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\http-body-1.0.1\\src\\lib.rs", Edition2018) }
-   0.082576600s  INFO prepare_target{force=false package_id=http-body v1.0.1 target="http_body"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\http-body-1360c533619969de\lib-http_body`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.082926500s  INFO prepare_target{force=false package_id=http-body-util v0.1.3 target="http_body_util"}: cargo::core::compiler::fingerprint: fingerprint error for http-body-util v0.1.3/Check { test: false }/TargetInner { ..: lib_target("http_body_util", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\http-body-util-0.1.3\\src\\lib.rs", Edition2018) }
-   0.082938500s  INFO prepare_target{force=false package_id=http-body-util v0.1.3 target="http_body_util"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\http-body-util-c568078f78714595\lib-http_body_util`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.083230000s  INFO prepare_target{force=false package_id=pin-project-lite v0.2.17 target="pin_project_lite"}: cargo::core::compiler::fingerprint: fingerprint error for pin-project-lite v0.2.17/Check { test: false }/TargetInner { doc_scrape_examples: Disabled, ..: lib_target("pin_project_lite", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pin-project-lite-0.2.17\\src\\lib.rs", Edition2018) }
-   0.083254200s  INFO prepare_target{force=false package_id=pin-project-lite v0.2.17 target="pin_project_lite"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\pin-project-lite-55c550245bfe95bc\lib-pin_project_lite`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.083493700s  INFO prepare_target{force=false package_id=mime v0.3.17 target="mime"}: cargo::core::compiler::fingerprint: fingerprint error for mime v0.3.17/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mime", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mime-0.3.17\\src\\lib.rs", Edition2015) }
-   0.083503800s  INFO prepare_target{force=false package_id=mime v0.3.17 target="mime"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\mime-10975d04c95915db\lib-mime`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.083721600s  INFO prepare_target{force=false package_id=sync_wrapper v1.0.2 target="sync_wrapper"}: cargo::core::compiler::fingerprint: fingerprint error for sync_wrapper v1.0.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sync_wrapper", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sync_wrapper-1.0.2\\src\\lib.rs", Edition2021) }
-   0.083731100s  INFO prepare_target{force=false package_id=sync_wrapper v1.0.2 target="sync_wrapper"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\sync_wrapper-d64b4539ba1e2ff3\lib-sync_wrapper`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.083957600s  INFO prepare_target{force=false package_id=tower-layer v0.3.3 target="tower_layer"}: cargo::core::compiler::fingerprint: fingerprint error for tower-layer v0.3.3/Check { test: false }/TargetInner { ..: lib_target("tower_layer", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tower-layer-0.3.3\\src\\lib.rs", Edition2018) }
-   0.083974300s  INFO prepare_target{force=false package_id=tower-layer v0.3.3 target="tower_layer"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tower-layer-795e0da39ed0a75d\lib-tower_layer`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.084341000s  INFO prepare_target{force=false package_id=tower-service v0.3.3 target="tower_service"}: cargo::core::compiler::fingerprint: fingerprint error for tower-service v0.3.3/Check { test: false }/TargetInner { ..: lib_target("tower_service", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tower-service-0.3.3\\src\\lib.rs", Edition2018) }
-   0.084359700s  INFO prepare_target{force=false package_id=tower-service v0.3.3 target="tower_service"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tower-service-a3c9812bf3d25732\lib-tower_service`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.084668600s  INFO prepare_target{force=false package_id=tracing v0.1.44 target="tracing"}: cargo::core::compiler::fingerprint: fingerprint error for tracing v0.1.44/Check { test: false }/TargetInner { ..: lib_target("tracing", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tracing-0.1.44\\src\\lib.rs", Edition2018) }
-   0.084701000s  INFO prepare_target{force=false package_id=tracing v0.1.44 target="tracing"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tracing-a8117c357361a49c\lib-tracing`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.085031400s  INFO prepare_target{force=false package_id=log v0.4.29 target="log"}: cargo::core::compiler::fingerprint: fingerprint error for log v0.4.29/Check { test: false }/TargetInner { ..: lib_target("log", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\log-0.4.29\\src\\lib.rs", Edition2021) }
-   0.085042800s  INFO prepare_target{force=false package_id=log v0.4.29 target="log"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\log-f3f4c9c6c3a1ca0e\lib-log`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.085345000s  INFO prepare_target{force=false package_id=tracing-core v0.1.36 target="tracing_core"}: cargo::core::compiler::fingerprint: fingerprint error for tracing-core v0.1.36/Check { test: false }/TargetInner { ..: lib_target("tracing_core", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tracing-core-0.1.36\\src\\lib.rs", Edition2018) }
-   0.085355600s  INFO prepare_target{force=false package_id=tracing-core v0.1.36 target="tracing_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tracing-core-de603f7015f8fbc0\lib-tracing_core`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.085587300s  INFO prepare_target{force=false package_id=once_cell v1.21.4 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.4/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.4\\src\\lib.rs", Edition2021) }
-   0.085596900s  INFO prepare_target{force=false package_id=once_cell v1.21.4 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\once_cell-841ecbb8528038f1\lib-once_cell`
+   0.352918500s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for httparse v1.10.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httparse-1.10.1\\build.rs", Edition2018) }
+   0.352935400s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\httparse-a704dd11d8c7f165\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -647,284 +240,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.085842700s  INFO prepare_target{force=false package_id=form_urlencoded v1.2.2 target="form_urlencoded"}: cargo::core::compiler::fingerprint: fingerprint error for form_urlencoded v1.2.2/Check { test: false }/TargetInner { tested: false, ..: lib_target("form_urlencoded", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\form_urlencoded-1.2.2\\src\\lib.rs", Edition2018) }
-   0.085852700s  INFO prepare_target{force=false package_id=form_urlencoded v1.2.2 target="form_urlencoded"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\form_urlencoded-1f06648f75c6d6cd\lib-form_urlencoded`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.086079600s  INFO prepare_target{force=false package_id=percent-encoding v2.3.2 target="percent_encoding"}: cargo::core::compiler::fingerprint: fingerprint error for percent-encoding v2.3.2/Check { test: false }/TargetInner { ..: lib_target("percent_encoding", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\percent-encoding-2.3.2\\src\\lib.rs", Edition2018) }
-   0.086089500s  INFO prepare_target{force=false package_id=percent-encoding v2.3.2 target="percent_encoding"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\percent-encoding-492f9135b5c12e2d\lib-percent_encoding`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.086294900s  INFO prepare_target{force=false package_id=futures-util v0.3.32 target="futures_util"}: cargo::core::compiler::fingerprint: fingerprint error for futures-util v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_util", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-util-0.3.32\\src\\lib.rs", Edition2018) }
-   0.086304700s  INFO prepare_target{force=false package_id=futures-util v0.3.32 target="futures_util"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\futures-util-7b930b7dff57417d\lib-futures_util`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.086969500s  INFO prepare_target{force=false package_id=futures-task v0.3.32 target="futures_task"}: cargo::core::compiler::fingerprint: fingerprint error for futures-task v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_task", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-task-0.3.32\\src\\lib.rs", Edition2018) }
-   0.086984100s  INFO prepare_target{force=false package_id=futures-task v0.3.32 target="futures_task"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\futures-task-beb5e0e930221ef9\lib-futures_task`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.087279000s  INFO prepare_target{force=false package_id=slab v0.4.12 target="slab"}: cargo::core::compiler::fingerprint: fingerprint error for slab v0.4.12/Check { test: false }/TargetInner { ..: lib_target("slab", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\slab-0.4.12\\src\\lib.rs", Edition2018) }
-   0.087293400s  INFO prepare_target{force=false package_id=slab v0.4.12 target="slab"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\slab-1b6b769ee9d5627c\lib-slab`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.087550500s  INFO prepare_target{force=false package_id=hyper v1.9.0 target="hyper"}: cargo::core::compiler::fingerprint: fingerprint error for hyper v1.9.0/Check { test: false }/TargetInner { ..: lib_target("hyper", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hyper-1.9.0\\src\\lib.rs", Edition2021) }
-   0.087561200s  INFO prepare_target{force=false package_id=hyper v1.9.0 target="hyper"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\hyper-f97ce23c5dda8ca0\lib-hyper`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.087921100s  INFO prepare_target{force=false package_id=atomic-waker v1.1.2 target="atomic_waker"}: cargo::core::compiler::fingerprint: fingerprint error for atomic-waker v1.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("atomic_waker", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\atomic-waker-1.1.2\\src\\lib.rs", Edition2018) }
-   0.087932800s  INFO prepare_target{force=false package_id=atomic-waker v1.1.2 target="atomic_waker"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\atomic-waker-83beeb9ba64d005b\lib-atomic_waker`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.088177100s  INFO prepare_target{force=false package_id=futures-channel v0.3.32 target="futures_channel"}: cargo::core::compiler::fingerprint: fingerprint error for futures-channel v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_channel", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-channel-0.3.32\\src\\lib.rs", Edition2018) }
-   0.088187400s  INFO prepare_target{force=false package_id=futures-channel v0.3.32 target="futures_channel"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\futures-channel-0c3ad5d8d53890d4\lib-futures_channel`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.088530000s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="httparse"}: cargo::core::compiler::fingerprint: fingerprint error for httparse v1.10.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("httparse", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httparse-1.10.1\\src\\lib.rs", Edition2018) }
-   0.088546100s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="httparse"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\httparse-f46a7ee487881b8c\lib-httparse`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.088972400s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for httparse v1.10.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httparse-1.10.1\\build.rs", Edition2018) }
-   0.088984500s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\httparse-a704dd11d8c7f165\run-build-script-build-script-build`
+   0.353030300s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for httparse v1.10.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httparse-1.10.1\\build.rs", Edition2018) }
+   0.353038800s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\httparse-c9c706abc364aaa1\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -956,41 +273,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.089055600s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for httparse v1.10.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httparse-1.10.1\\build.rs", Edition2018) }
-   0.089062800s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\httparse-c9c706abc364aaa1\build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_libgit2_prerelease
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: <unknown>
-  21: git_midx_writer_dump
-  22: git_filter_source_repo
-  23: git_midx_writer_dump
-  24: BaseThreadInitThunk
-  25: RtlUserThreadStart
-   0.089469500s  INFO prepare_target{force=false package_id=httpdate v1.0.3 target="httpdate"}: cargo::core::compiler::fingerprint: fingerprint error for httpdate v1.0.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("httpdate", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httpdate-1.0.3\\src\\lib.rs", Edition2021) }
-   0.089480800s  INFO prepare_target{force=false package_id=httpdate v1.0.3 target="httpdate"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\httpdate-93e5450811b42713\lib-httpdate`
+   0.373032600s  INFO prepare_target{force=false package_id=tokio v1.52.2 target="tokio"}: cargo::core::compiler::fingerprint: fingerprint error for tokio v1.52.2/Check { test: false }/TargetInner { ..: lib_target("tokio", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-1.52.2\\src\\lib.rs", Edition2021) }
+   0.373061600s  INFO prepare_target{force=false package_id=tokio v1.52.2 target="tokio"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tokio-12ec87f2dbb36c1e\lib-tokio`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1020,70 +304,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.089722500s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint: fingerprint error for smallvec v1.15.1/Check { test: false }/TargetInner { ..: lib_target("smallvec", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\smallvec-1.15.1\\src\\lib.rs", Edition2018) }
-   0.089740000s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\smallvec-51d97f34d8f9691c\lib-smallvec`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.090135200s  INFO prepare_target{force=false package_id=tokio v1.52.2 target="tokio"}: cargo::core::compiler::fingerprint: fingerprint error for tokio v1.52.2/Check { test: false }/TargetInner { ..: lib_target("tokio", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-1.52.2\\src\\lib.rs", Edition2021) }
-   0.090150500s  INFO prepare_target{force=false package_id=tokio v1.52.2 target="tokio"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tokio-12ec87f2dbb36c1e\lib-tokio`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.090609700s  INFO prepare_target{force=false package_id=mio v1.2.0 target="mio"}: cargo::core::compiler::fingerprint: fingerprint error for mio v1.2.0/Check { test: false }/TargetInner { ..: lib_target("mio", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mio-1.2.0\\src\\lib.rs", Edition2021) }
-   0.090621200s  INFO prepare_target{force=false package_id=mio v1.2.0 target="mio"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\mio-768f84d3ae4a02e2\lib-mio`
+   0.395542800s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot v0.12.5/Check { test: false }/TargetInner { ..: lib_target("parking_lot", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot-0.12.5\\src\\lib.rs", Edition2021) }
+   0.395576800s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\parking_lot-009e2af2eb4329b1\lib-parking_lot`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1114,8 +336,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.090923900s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.61.2/Check { test: false }/TargetInner { tested: false, doctest: false, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.61.2\\src\\lib.rs", Edition2021) }
-   0.090939200s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\windows-sys-6cf5e767169fa13e\lib-windows_sys`
+   0.413868100s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/Check { test: false }/TargetInner { ..: lib_target("parking_lot_core", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\src\\lib.rs", Edition2021) }
+   0.413898400s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\parking_lot_core-d6517ed508ba25fc\lib-parking_lot_core`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1147,208 +369,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.091304700s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint: fingerprint error for windows-link v0.2.1/Check { test: false }/TargetInner { ..: lib_target("windows_link", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-link-0.2.1\\src\\lib.rs", Edition2021) }
-   0.091315800s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\windows-link-3842c44045075457\lib-windows_link`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_libgit2_prerelease
-  18: <unknown>
-  19: <unknown>
-  20: <unknown>
-  21: <unknown>
-  22: git_midx_writer_dump
-  23: git_filter_source_repo
-  24: git_midx_writer_dump
-  25: BaseThreadInitThunk
-  26: RtlUserThreadStart
-   0.091554500s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot v0.12.5/Check { test: false }/TargetInner { ..: lib_target("parking_lot", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot-0.12.5\\src\\lib.rs", Edition2021) }
-   0.091587500s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\parking_lot-009e2af2eb4329b1\lib-parking_lot`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.091934100s  INFO prepare_target{force=false package_id=lock_api v0.4.14 target="lock_api"}: cargo::core::compiler::fingerprint: fingerprint error for lock_api v0.4.14/Check { test: false }/TargetInner { ..: lib_target("lock_api", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\lock_api-0.4.14\\src\\lib.rs", Edition2021) }
-   0.091947200s  INFO prepare_target{force=false package_id=lock_api v0.4.14 target="lock_api"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\lock_api-8f5ee063c0c7f0d5\lib-lock_api`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_libgit2_prerelease
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: <unknown>
-  21: git_midx_writer_dump
-  22: git_filter_source_repo
-  23: git_midx_writer_dump
-  24: BaseThreadInitThunk
-  25: RtlUserThreadStart
-   0.092235200s  INFO prepare_target{force=false package_id=scopeguard v1.2.0 target="scopeguard"}: cargo::core::compiler::fingerprint: fingerprint error for scopeguard v1.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("scopeguard", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\scopeguard-1.2.0\\src\\lib.rs", Edition2015) }
-   0.092247100s  INFO prepare_target{force=false package_id=scopeguard v1.2.0 target="scopeguard"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\scopeguard-f8ad5fe88dbdf9af\lib-scopeguard`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_libgit2_prerelease
-  18: <unknown>
-  19: <unknown>
-  20: <unknown>
-  21: <unknown>
-  22: git_midx_writer_dump
-  23: git_filter_source_repo
-  24: git_midx_writer_dump
-  25: BaseThreadInitThunk
-  26: RtlUserThreadStart
-   0.092486200s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/Check { test: false }/TargetInner { ..: lib_target("parking_lot_core", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\src\\lib.rs", Edition2021) }
-   0.092496700s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\parking_lot_core-d6517ed508ba25fc\lib-parking_lot_core`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_libgit2_prerelease
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: <unknown>
-  21: git_midx_writer_dump
-  22: git_filter_source_repo
-  23: git_midx_writer_dump
-  24: BaseThreadInitThunk
-  25: RtlUserThreadStart
-   0.092760700s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.4\\src\\lib.rs", Edition2018) }
-   0.092771100s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\cfg-if-971371d481ffa182\lib-cfg_if`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_filter_source_repo
-  16: git_filter_source_repo
-  17: git_libgit2_prerelease
-  18: <unknown>
-  19: <unknown>
-  20: <unknown>
-  21: <unknown>
-  22: git_midx_writer_dump
-  23: git_filter_source_repo
-  24: git_midx_writer_dump
-  25: BaseThreadInitThunk
-  26: RtlUserThreadStart
-   0.093084500s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\build.rs", Edition2021) }
-   0.093096100s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\parking_lot_core-d7075c44b5f985c0\run-build-script-build-script-build`
+   0.423402700s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\build.rs", Edition2021) }
+   0.423427300s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\parking_lot_core-d7075c44b5f985c0\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1382,8 +404,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.093201600s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\build.rs", Edition2021) }
-   0.093206900s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\parking_lot_core-62270fb0de8406d7\build-script-build-script-build`
+   0.423548200s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\build.rs", Edition2021) }
+   0.423555100s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\parking_lot_core-62270fb0de8406d7\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1417,8 +439,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.093548900s  INFO prepare_target{force=false package_id=socket2 v0.6.3 target="socket2"}: cargo::core::compiler::fingerprint: fingerprint error for socket2 v0.6.3/Check { test: false }/TargetInner { ..: lib_target("socket2", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\socket2-0.6.3\\src\\lib.rs", Edition2021) }
-   0.093560700s  INFO prepare_target{force=false package_id=socket2 v0.6.3 target="socket2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\socket2-9d669d553bfde319\lib-socket2`
+   0.434339200s  INFO prepare_target{force=false package_id=tokio-macros v2.7.0 target="tokio_macros"}: cargo::core::compiler::fingerprint: fingerprint error for tokio-macros v2.7.0/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("tokio_macros", ["proc-macro"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-macros-2.7.0\\src\\lib.rs", Edition2021) }
+   0.434366800s  INFO prepare_target{force=false package_id=tokio-macros v2.7.0 target="tokio_macros"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tokio-macros-17ce86d1e91e8eb6\lib-tokio_macros`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1449,40 +471,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.093726400s  INFO prepare_target{force=false package_id=tokio-macros v2.7.0 target="tokio_macros"}: cargo::core::compiler::fingerprint: fingerprint error for tokio-macros v2.7.0/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("tokio_macros", ["proc-macro"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-macros-2.7.0\\src\\lib.rs", Edition2021) }
-   0.093735700s  INFO prepare_target{force=false package_id=tokio-macros v2.7.0 target="tokio_macros"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tokio-macros-17ce86d1e91e8eb6\lib-tokio_macros`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.093937900s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: lib_target("proc_macro2", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\src\\lib.rs", Edition2021) }
-   0.093946500s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\proc-macro2-c170e20c1cf2d052\lib-proc_macro2`
+   0.434685100s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: lib_target("proc_macro2", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\src\\lib.rs", Edition2021) }
+   0.434697800s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\proc-macro2-c170e20c1cf2d052\lib-proc_macro2`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1514,8 +504,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.094281200s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
-   0.094291600s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\proc-macro2-b20a946a3a5f7c90\run-build-script-build-script-build`
+   0.435158600s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
+   0.435172400s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\proc-macro2-b20a946a3a5f7c90\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1549,8 +539,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.094376300s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
-   0.094383300s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\proc-macro2-14c436feccda2a72\build-script-build-script-build`
+   0.435259100s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
+   0.435266900s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\proc-macro2-14c436feccda2a72\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1584,8 +574,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.094738600s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: lib_target("quote", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\src\\lib.rs", Edition2021) }
-   0.094750400s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\quote-9957882311bf59ea\lib-quote`
+   0.435744300s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: lib_target("quote", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\src\\lib.rs", Edition2021) }
+   0.435755600s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\quote-9957882311bf59ea\lib-quote`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1617,8 +607,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.095072900s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
-   0.095083500s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\quote-cdea548fb4516a7c\run-build-script-build-script-build`
+   0.436112900s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
+   0.436123700s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\quote-cdea548fb4516a7c\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1652,8 +642,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.095159200s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
-   0.095166100s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\quote-880138076a3cb7cd\build-script-build-script-build`
+   0.436197900s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
+   0.436204800s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\quote-880138076a3cb7cd\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1687,8 +677,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.095443100s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint: fingerprint error for syn v2.0.117/Build/TargetInner { ..: lib_target("syn", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\syn-2.0.117\\src\\lib.rs", Edition2021) }
-   0.095456400s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\syn-45fae0eb20792098\lib-syn`
+   0.436575400s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint: fingerprint error for syn v2.0.117/Build/TargetInner { ..: lib_target("syn", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\syn-2.0.117\\src\\lib.rs", Edition2021) }
+   0.436591300s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\syn-45fae0eb20792098\lib-syn`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1720,8 +710,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.095763100s  INFO prepare_target{force=false package_id=hyper-util v0.1.20 target="hyper_util"}: cargo::core::compiler::fingerprint: fingerprint error for hyper-util v0.1.20/Check { test: false }/TargetInner { ..: lib_target("hyper_util", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hyper-util-0.1.20\\src\\lib.rs", Edition2021) }
-   0.095773500s  INFO prepare_target{force=false package_id=hyper-util v0.1.20 target="hyper_util"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\hyper-util-605faceb5fdfc481\lib-hyper_util`
+   0.436839900s  INFO prepare_target{force=false package_id=hyper-util v0.1.20 target="hyper_util"}: cargo::core::compiler::fingerprint: fingerprint error for hyper-util v0.1.20/Check { test: false }/TargetInner { ..: lib_target("hyper_util", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hyper-util-0.1.20\\src\\lib.rs", Edition2021) }
+   0.436852300s  INFO prepare_target{force=false package_id=hyper-util v0.1.20 target="hyper_util"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\hyper-util-605faceb5fdfc481\lib-hyper_util`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1750,8 +740,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.096115600s  INFO prepare_target{force=false package_id=matchit v0.8.4 target="matchit"}: cargo::core::compiler::fingerprint: fingerprint error for matchit v0.8.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("matchit", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\matchit-0.8.4\\src\\lib.rs", Edition2021) }
-   0.096127600s  INFO prepare_target{force=false package_id=matchit v0.8.4 target="matchit"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\matchit-5cae400784d45eda\lib-matchit`
+   0.455270300s  INFO prepare_target{force=false package_id=multer v3.1.0 target="multer"}: cargo::core::compiler::fingerprint: fingerprint error for multer v3.1.0/Check { test: false }/TargetInner { ..: lib_target("multer", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\multer-3.1.0\\src\\lib.rs", Edition2018) }
+   0.455296100s  INFO prepare_target{force=false package_id=multer v3.1.0 target="multer"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\multer-28cacc4e710094da\lib-multer`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1780,8 +770,72 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.096374300s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.8.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.8.0\\src\\lib.rs", Edition2021) }
-   0.096384800s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\memchr-50a82b3e74a6d117\lib-memchr`
+   0.464501100s  INFO prepare_target{force=false package_id=multer v3.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for multer v3.1.0/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\multer-3.1.0\\build.rs", Edition2018) }
+   0.464523600s  INFO prepare_target{force=false package_id=multer v3.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\multer-0495b12b8404853a\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.464638300s  INFO prepare_target{force=false package_id=multer v3.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for multer v3.1.0/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\multer-3.1.0\\build.rs", Edition2018) }
+   0.464646900s  INFO prepare_target{force=false package_id=multer v3.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\multer-6b504c7dda3549e1\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.466096100s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   0.466122100s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_core-621bc14f3f832467\lib-serde_core`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1810,8 +864,72 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.096613400s  INFO prepare_target{force=false package_id=multer v3.1.0 target="multer"}: cargo::core::compiler::fingerprint: fingerprint error for multer v3.1.0/Check { test: false }/TargetInner { ..: lib_target("multer", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\multer-3.1.0\\src\\lib.rs", Edition2018) }
-   0.096623300s  INFO prepare_target{force=false package_id=multer v3.1.0 target="multer"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\multer-28cacc4e710094da\lib-multer`
+   0.466560700s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
+   0.466577200s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_core-543f8471a5668b3a\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.466670200s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
+   0.466678100s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_core-5a9440e501b6daae\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.467024500s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\src\\lib.rs", Edition2021) }
+   0.467037400s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_json-d5c0717ba485f12d\lib-serde_json`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1840,8 +958,72 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.096892900s  INFO prepare_target{force=false package_id=encoding_rs v0.8.35 target="encoding_rs"}: cargo::core::compiler::fingerprint: fingerprint error for encoding_rs v0.8.35/Check { test: false }/TargetInner { ..: lib_target("encoding_rs", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\encoding_rs-0.8.35\\src\\lib.rs", Edition2018) }
-   0.096903000s  INFO prepare_target{force=false package_id=encoding_rs v0.8.35 target="encoding_rs"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\encoding_rs-8c20cb97ce7ba652\lib-encoding_rs`
+   0.467452600s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
+   0.467464500s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_json-e6e2db1abc887287\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.467536600s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
+   0.467542100s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_json-d889867ebb56721b\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.467822500s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Check { test: false }/TargetInner { ..: lib_target("zmij", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\src\\lib.rs", Edition2021) }
+   0.467835000s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\zmij-cefe5e34f175aef8\lib-zmij`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -1871,322 +1053,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.097229400s  INFO prepare_target{force=false package_id=multer v3.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for multer v3.1.0/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\multer-3.1.0\\build.rs", Edition2018) }
-   0.097240100s  INFO prepare_target{force=false package_id=multer v3.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\multer-0495b12b8404853a\run-build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.097325300s  INFO prepare_target{force=false package_id=multer v3.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for multer v3.1.0/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\multer-3.1.0\\build.rs", Edition2018) }
-   0.097332400s  INFO prepare_target{force=false package_id=multer v3.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\multer-6b504c7dda3549e1\build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.097750500s  INFO prepare_target{force=false package_id=spin v0.9.8 target="spin"}: cargo::core::compiler::fingerprint: fingerprint error for spin v0.9.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spin", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spin-0.9.8\\src\\lib.rs", Edition2015) }
-   0.097762500s  INFO prepare_target{force=false package_id=spin v0.9.8 target="spin"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\spin-b30d2544987df956\lib-spin`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.097999700s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
-   0.098010000s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_core-621bc14f3f832467\lib-serde_core`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.098329900s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
-   0.098340300s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_core-543f8471a5668b3a\run-build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.098442400s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
-   0.098450400s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_core-5a9440e501b6daae\build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.098765100s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\src\\lib.rs", Edition2021) }
-   0.098776800s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_json-d5c0717ba485f12d\lib-serde_json`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.099181100s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
-   0.099192000s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_json-e6e2db1abc887287\run-build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.099257900s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\build.rs", Edition2021) }
-   0.099263100s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_json-d889867ebb56721b\build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.099628200s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Check { test: false }/TargetInner { ..: lib_target("zmij", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\src\\lib.rs", Edition2021) }
-   0.099639500s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\zmij-cefe5e34f175aef8\lib-zmij`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.099982800s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\build.rs", Edition2021) }
-   0.099993900s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\zmij-60998286467a7f79\run-build-script-build-script-build`
+   0.468175500s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\build.rs", Edition2021) }
+   0.468186800s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\zmij-60998286467a7f79\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2218,8 +1086,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.100062900s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\build.rs", Edition2021) }
-   0.100068000s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\zmij-eb3bf14a5a236ea8\build-script-build-script-build`
+   0.468287800s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\build.rs", Edition2021) }
+   0.468295000s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\zmij-eb3bf14a5a236ea8\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2251,8 +1119,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.100388400s  INFO prepare_target{force=false package_id=serde_path_to_error v0.1.20 target="serde_path_to_error"}: cargo::core::compiler::fingerprint: fingerprint error for serde_path_to_error v0.1.20/Check { test: false }/TargetInner { ..: lib_target("serde_path_to_error", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_path_to_error-0.1.20\\src\\lib.rs", Edition2021) }
-   0.100403800s  INFO prepare_target{force=false package_id=serde_path_to_error v0.1.20 target="serde_path_to_error"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_path_to_error-cb8e0b641c632812\lib-serde_path_to_error`
+   0.468544300s  INFO prepare_target{force=false package_id=serde_path_to_error v0.1.20 target="serde_path_to_error"}: cargo::core::compiler::fingerprint: fingerprint error for serde_path_to_error v0.1.20/Check { test: false }/TargetInner { ..: lib_target("serde_path_to_error", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_path_to_error-0.1.20\\src\\lib.rs", Edition2021) }
+   0.468555100s  INFO prepare_target{force=false package_id=serde_path_to_error v0.1.20 target="serde_path_to_error"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_path_to_error-cb8e0b641c632812\lib-serde_path_to_error`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2281,8 +1149,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.100666800s  INFO prepare_target{force=false package_id=serde_urlencoded v0.7.1 target="serde_urlencoded"}: cargo::core::compiler::fingerprint: fingerprint error for serde_urlencoded v0.7.1/Check { test: false }/TargetInner { name_inferred: true, tested: false, ..: lib_target("serde_urlencoded", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_urlencoded-0.7.1\\src\\lib.rs", Edition2018) }
-   0.100680300s  INFO prepare_target{force=false package_id=serde_urlencoded v0.7.1 target="serde_urlencoded"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_urlencoded-c1e90cecd372081d\lib-serde_urlencoded`
+   0.468739400s  INFO prepare_target{force=false package_id=serde_urlencoded v0.7.1 target="serde_urlencoded"}: cargo::core::compiler::fingerprint: fingerprint error for serde_urlencoded v0.7.1/Check { test: false }/TargetInner { name_inferred: true, tested: false, ..: lib_target("serde_urlencoded", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_urlencoded-0.7.1\\src\\lib.rs", Edition2018) }
+   0.468749000s  INFO prepare_target{force=false package_id=serde_urlencoded v0.7.1 target="serde_urlencoded"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_urlencoded-c1e90cecd372081d\lib-serde_urlencoded`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2311,8 +1179,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.100955300s  INFO prepare_target{force=false package_id=ryu v1.0.23 target="ryu"}: cargo::core::compiler::fingerprint: fingerprint error for ryu v1.0.23/Check { test: false }/TargetInner { ..: lib_target("ryu", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ryu-1.0.23\\src\\lib.rs", Edition2021) }
-   0.100972000s  INFO prepare_target{force=false package_id=ryu v1.0.23 target="ryu"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\ryu-085f93124e955876\lib-ryu`
+   0.477644400s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.477670200s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde-df3be024c6cd473e\lib-serde`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2342,39 +1210,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.101201800s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
-   0.101212700s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde-df3be024c6cd473e\lib-serde`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.101572600s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
-   0.101583000s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde-170d25af167437ff\run-build-script-build-script-build`
+   0.478178200s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
+   0.478192900s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde-170d25af167437ff\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2406,8 +1243,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.101664800s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
-   0.101672200s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde-bd66712cb0deb479\build-script-build-script-build`
+   0.478282800s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
+   0.478290000s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde-bd66712cb0deb479\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2439,8 +1276,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.101967100s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint: fingerprint error for serde_derive v1.0.228/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("serde_derive", ["proc-macro"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_derive-1.0.228\\src\\lib.rs", Edition2021) }
-   0.101977500s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_derive-3ca902bf20ebf1a8\lib-serde_derive`
+   0.478584300s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint: fingerprint error for serde_derive v1.0.228/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("serde_derive", ["proc-macro"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_derive-1.0.228\\src\\lib.rs", Edition2021) }
+   0.478596300s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\serde_derive-3ca902bf20ebf1a8\lib-serde_derive`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2471,8 +1308,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.102266500s  INFO prepare_target{force=false package_id=tower v0.5.3 target="tower"}: cargo::core::compiler::fingerprint: fingerprint error for tower v0.5.3/Check { test: false }/TargetInner { ..: lib_target("tower", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tower-0.5.3\\src\\lib.rs", Edition2018) }
-   0.102277000s  INFO prepare_target{force=false package_id=tower v0.5.3 target="tower"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tower-3d23d611a63670c2\lib-tower`
+   0.478798500s  INFO prepare_target{force=false package_id=tower v0.5.3 target="tower"}: cargo::core::compiler::fingerprint: fingerprint error for tower v0.5.3/Check { test: false }/TargetInner { ..: lib_target("tower", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tower-0.5.3\\src\\lib.rs", Edition2018) }
+   0.478808200s  INFO prepare_target{force=false package_id=tower v0.5.3 target="tower"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tower-3d23d611a63670c2\lib-tower`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2501,8 +1338,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.102625900s  INFO prepare_target{force=false package_id=chrono v0.4.44 target="chrono"}: cargo::core::compiler::fingerprint: fingerprint error for chrono v0.4.44/Check { test: false }/TargetInner { ..: lib_target("chrono", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\chrono-0.4.44\\src\\lib.rs", Edition2021) }
-   0.102636500s  INFO prepare_target{force=false package_id=chrono v0.4.44 target="chrono"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\chrono-2da63c6d7ec7ac0b\lib-chrono`
+   0.479049100s  INFO prepare_target{force=false package_id=chrono v0.4.44 target="chrono"}: cargo::core::compiler::fingerprint: fingerprint error for chrono v0.4.44/Check { test: false }/TargetInner { ..: lib_target("chrono", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\chrono-0.4.44\\src\\lib.rs", Edition2021) }
+   0.479059800s  INFO prepare_target{force=false package_id=chrono v0.4.44 target="chrono"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\chrono-2da63c6d7ec7ac0b\lib-chrono`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2530,8 +1367,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.102915200s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
-   0.102925500s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\num-traits-1a72a24364706097\lib-num_traits`
+   0.479263300s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   0.479273000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\num-traits-1a72a24364706097\lib-num_traits`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2560,8 +1397,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.103231000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\build.rs", Edition2021) }
-   0.103242200s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\num-traits-a6a0286a59768433\run-build-script-build-script-build`
+   0.479587500s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\build.rs", Edition2021) }
+   0.479598000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\num-traits-a6a0286a59768433\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2592,8 +1429,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.103312200s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\build.rs", Edition2021) }
-   0.103319200s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\num-traits-33f6614841b1dc4d\build-script-build-script-build`
+   0.479674800s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\build.rs", Edition2021) }
+   0.479682100s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\num-traits-33f6614841b1dc4d\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2624,8 +1461,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.103760900s  INFO prepare_target{force=false package_id=tower-http v0.6.9 target="tower_http"}: cargo::core::compiler::fingerprint: fingerprint error for tower-http v0.6.9/Check { test: false }/TargetInner { ..: lib_target("tower_http", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tower-http-0.6.9\\src\\lib.rs", Edition2018) }
-   0.103776600s  INFO prepare_target{force=false package_id=tower-http v0.6.9 target="tower_http"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tower-http-7b6234f008ea9f28\lib-tower_http`
+   0.480139900s  INFO prepare_target{force=false package_id=tower-http v0.6.9 target="tower_http"}: cargo::core::compiler::fingerprint: fingerprint error for tower-http v0.6.9/Check { test: false }/TargetInner { ..: lib_target("tower_http", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tower-http-0.6.9\\src\\lib.rs", Edition2018) }
+   0.480154800s  INFO prepare_target{force=false package_id=tower-http v0.6.9 target="tower_http"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tower-http-7b6234f008ea9f28\lib-tower_http`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2653,8 +1490,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.104224600s  INFO prepare_target{force=false package_id=bitflags v2.11.1 target="bitflags"}: cargo::core::compiler::fingerprint: fingerprint error for bitflags v2.11.1/Check { test: false }/TargetInner { ..: lib_target("bitflags", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bitflags-2.11.1\\src\\lib.rs", Edition2021) }
-   0.104236500s  INFO prepare_target{force=false package_id=bitflags v2.11.1 target="bitflags"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\bitflags-17854968389f290d\lib-bitflags`
+   0.499501000s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="mime_guess"}: cargo::core::compiler::fingerprint: fingerprint error for mime_guess v2.0.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mime_guess", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mime_guess-2.0.5\\src\\lib.rs", Edition2015) }
+   0.499541500s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="mime_guess"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\mime_guess-67848364ec238792\lib-mime_guess`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2683,68 +1520,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.104510900s  INFO prepare_target{force=false package_id=http-range-header v0.4.2 target="http_range_header"}: cargo::core::compiler::fingerprint: fingerprint error for http-range-header v0.4.2/Check { test: false }/TargetInner { ..: lib_target("http_range_header", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\http-range-header-0.4.2\\src\\lib.rs", Edition2018) }
-   0.104521700s  INFO prepare_target{force=false package_id=http-range-header v0.4.2 target="http_range_header"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\http-range-header-d605ec36ae622d68\lib-http_range_header`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.104749600s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="mime_guess"}: cargo::core::compiler::fingerprint: fingerprint error for mime_guess v2.0.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mime_guess", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mime_guess-2.0.5\\src\\lib.rs", Edition2015) }
-   0.104759500s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="mime_guess"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\mime_guess-67848364ec238792\lib-mime_guess`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.105087300s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for mime_guess v2.0.5/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mime_guess-2.0.5\\build.rs", Edition2015) }
-   0.105097800s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\mime_guess-72426e13a1c37cd3\run-build-script-build-script-build`
+   0.500632800s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for mime_guess v2.0.5/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mime_guess-2.0.5\\build.rs", Edition2015) }
+   0.500664000s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\mime_guess-72426e13a1c37cd3\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2775,8 +1552,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.105204100s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for mime_guess v2.0.5/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mime_guess-2.0.5\\build.rs", Edition2015) }
-   0.105211400s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\mime_guess-e631d436ccced944\build-script-build-script-build`
+   0.500870800s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for mime_guess v2.0.5/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mime_guess-2.0.5\\build.rs", Edition2015) }
+   0.500906100s  INFO prepare_target{force=false package_id=mime_guess v2.0.5 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\mime_guess-e631d436ccced944\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2807,39 +1584,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.105650600s  INFO prepare_target{force=false package_id=unicase v2.9.0 target="unicase"}: cargo::core::compiler::fingerprint: fingerprint error for unicase v2.9.0/Check { test: false }/TargetInner { ..: lib_target("unicase", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\unicase-2.9.0\\src\\lib.rs", Edition2018) }
-   0.105666700s  INFO prepare_target{force=false package_id=unicase v2.9.0 target="unicase"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\unicase-ace29eadd779241d\lib-unicase`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.105916700s  INFO prepare_target{force=false package_id=tokio-util v0.7.18 target="tokio_util"}: cargo::core::compiler::fingerprint: fingerprint error for tokio-util v0.7.18/Check { test: false }/TargetInner { ..: lib_target("tokio_util", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-util-0.7.18\\src\\lib.rs", Edition2021) }
-   0.105927200s  INFO prepare_target{force=false package_id=tokio-util v0.7.18 target="tokio_util"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tokio-util-9e0682745307681b\lib-tokio_util`
+   0.502589300s  INFO prepare_target{force=false package_id=tokio-util v0.7.18 target="tokio_util"}: cargo::core::compiler::fingerprint: fingerprint error for tokio-util v0.7.18/Check { test: false }/TargetInner { ..: lib_target("tokio_util", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-util-0.7.18\\src\\lib.rs", Edition2021) }
+   0.502614400s  INFO prepare_target{force=false package_id=tokio-util v0.7.18 target="tokio_util"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tokio-util-9e0682745307681b\lib-tokio_util`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2868,39 +1614,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.106255200s  INFO prepare_target{force=false package_id=futures-sink v0.3.32 target="futures_sink"}: cargo::core::compiler::fingerprint: fingerprint error for futures-sink v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_sink", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-sink-0.3.32\\src\\lib.rs", Edition2018) }
-   0.106266600s  INFO prepare_target{force=false package_id=futures-sink v0.3.32 target="futures_sink"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\futures-sink-97bea59768a42924\lib-futures_sink`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.106525200s  INFO prepare_target{force=false package_id=tracing-subscriber v0.3.23 target="tracing_subscriber"}: cargo::core::compiler::fingerprint: fingerprint error for tracing-subscriber v0.3.23/Check { test: false }/TargetInner { ..: lib_target("tracing_subscriber", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tracing-subscriber-0.3.23\\src\\lib.rs", Edition2018) }
-   0.106536600s  INFO prepare_target{force=false package_id=tracing-subscriber v0.3.23 target="tracing_subscriber"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tracing-subscriber-f7a22d93fd92338f\lib-tracing_subscriber`
+   0.588642200s  INFO prepare_target{force=false package_id=uuid v1.23.1 target="uuid"}: cargo::core::compiler::fingerprint: fingerprint error for uuid v1.23.1/Check { test: false }/TargetInner { ..: lib_target("uuid", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\uuid-1.23.1\\src\\lib.rs", Edition2021) }
+   0.588669200s  INFO prepare_target{force=false package_id=uuid v1.23.1 target="uuid"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\uuid-f699f5d2245757e1\lib-uuid`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2928,8 +1643,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.106870900s  INFO prepare_target{force=false package_id=matchers v0.2.0 target="matchers"}: cargo::core::compiler::fingerprint: fingerprint error for matchers v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("matchers", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\matchers-0.2.0\\src\\lib.rs", Edition2018) }
-   0.106884300s  INFO prepare_target{force=false package_id=matchers v0.2.0 target="matchers"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\matchers-ea17c8fb07f1f02a\lib-matchers`
+   0.588923200s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.4.2/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.4.2\\src\\lib.rs", Edition2024) }
+   0.588935300s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\getrandom-ba61d96077a8914c\lib-getrandom`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -2958,39 +1673,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.107106600s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint: fingerprint error for regex-automata v0.4.14/Check { test: false }/TargetInner { benched: false, ..: lib_target("regex_automata", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-automata-0.4.14\\src\\lib.rs", Edition2021) }
-   0.107120100s  INFO prepare_target{force=false package_id=regex-automata v0.4.14 target="regex_automata"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\regex-automata-f43c7508d52728ac\lib-regex_automata`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.107482600s  INFO prepare_target{force=false package_id=regex-syntax v0.8.10 target="regex_syntax"}: cargo::core::compiler::fingerprint: fingerprint error for regex-syntax v0.8.10/Check { test: false }/TargetInner { ..: lib_target("regex_syntax", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\regex-syntax-0.8.10\\src\\lib.rs", Edition2021) }
-   0.107494800s  INFO prepare_target{force=false package_id=regex-syntax v0.8.10 target="regex_syntax"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\regex-syntax-ce222b1db6b179cf\lib-regex_syntax`
+   0.589377400s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.4.2/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.4.2\\build.rs", Edition2024) }
+   0.589396000s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\getrandom-5956df04ec41dcfe\run-build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -3021,218 +1705,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.107817500s  INFO prepare_target{force=false package_id=nu-ansi-term v0.50.3 target="nu_ansi_term"}: cargo::core::compiler::fingerprint: fingerprint error for nu-ansi-term v0.50.3/Check { test: false }/TargetInner { ..: lib_target("nu_ansi_term", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\nu-ansi-term-0.50.3\\src\\lib.rs", Edition2021) }
-   0.107831200s  INFO prepare_target{force=false package_id=nu-ansi-term v0.50.3 target="nu_ansi_term"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\nu-ansi-term-4b443f715cd0865b\lib-nu_ansi_term`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.108078500s  INFO prepare_target{force=false package_id=sharded-slab v0.1.7 target="sharded_slab"}: cargo::core::compiler::fingerprint: fingerprint error for sharded-slab v0.1.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sharded_slab", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sharded-slab-0.1.7\\src\\lib.rs", Edition2018) }
-   0.108088900s  INFO prepare_target{force=false package_id=sharded-slab v0.1.7 target="sharded_slab"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\sharded-slab-911b36c484f00871\lib-sharded_slab`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.108320200s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint: fingerprint error for lazy_static v1.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("lazy_static", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\lazy_static-1.5.0\\src\\lib.rs", Edition2015) }
-   0.108330100s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\lazy_static-24956994e3e2c66b\lib-lazy_static`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_libgit2_prerelease
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: git_midx_writer_dump
-  20: git_filter_source_repo
-  21: git_midx_writer_dump
-  22: BaseThreadInitThunk
-  23: RtlUserThreadStart
-   0.108554500s  INFO prepare_target{force=false package_id=thread_local v1.1.9 target="thread_local"}: cargo::core::compiler::fingerprint: fingerprint error for thread_local v1.1.9/Check { test: false }/TargetInner { ..: lib_target("thread_local", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thread_local-1.1.9\\src\\lib.rs", Edition2021) }
-   0.108563900s  INFO prepare_target{force=false package_id=thread_local v1.1.9 target="thread_local"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\thread_local-e707e4298995742f\lib-thread_local`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.108783800s  INFO prepare_target{force=false package_id=tracing-log v0.2.0 target="tracing_log"}: cargo::core::compiler::fingerprint: fingerprint error for tracing-log v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tracing_log", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tracing-log-0.2.0\\src\\lib.rs", Edition2018) }
-   0.108793300s  INFO prepare_target{force=false package_id=tracing-log v0.2.0 target="tracing_log"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\tracing-log-e04f0255efbe424a\lib-tracing_log`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.109082300s  INFO prepare_target{force=false package_id=uuid v1.23.1 target="uuid"}: cargo::core::compiler::fingerprint: fingerprint error for uuid v1.23.1/Check { test: false }/TargetInner { ..: lib_target("uuid", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\uuid-1.23.1\\src\\lib.rs", Edition2021) }
-   0.109092700s  INFO prepare_target{force=false package_id=uuid v1.23.1 target="uuid"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\uuid-f699f5d2245757e1\lib-uuid`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_libgit2_prerelease
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: git_midx_writer_dump
-  18: git_filter_source_repo
-  19: git_midx_writer_dump
-  20: BaseThreadInitThunk
-  21: RtlUserThreadStart
-   0.109338100s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.4.2/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.4.2\\src\\lib.rs", Edition2024) }
-   0.109350900s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\getrandom-ba61d96077a8914c\lib-getrandom`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.109727000s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.4.2/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.4.2\\build.rs", Edition2024) }
-   0.109737600s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\getrandom-5956df04ec41dcfe\run-build-script-build-script-build`
+   0.589486400s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.4.2/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.4.2\\build.rs", Edition2024) }
+   0.589494600s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\getrandom-e8ab277fb8b30f50\build-script-build-script-build`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -3263,40 +1737,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.109806200s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.4.2/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\surya\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.4.2\\build.rs", Edition2024) }
-   0.109813100s  INFO prepare_target{force=false package_id=getrandom v0.4.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\getrandom-e8ab277fb8b30f50\build-script-build-script-build`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_filter_source_repo
-  14: git_filter_source_repo
-  15: git_libgit2_prerelease
-  16: <unknown>
-  17: <unknown>
-  18: <unknown>
-  19: <unknown>
-  20: git_midx_writer_dump
-  21: git_filter_source_repo
-  22: git_midx_writer_dump
-  23: BaseThreadInitThunk
-  24: RtlUserThreadStart
-   0.110175900s  INFO prepare_target{force=false package_id=aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend) target="aerodynamics-cfd-backend"}: cargo::core::compiler::fingerprint: fingerprint error for aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend)/Check { test: true }/TargetInner { name: "aerodynamics-cfd-backend", doc: true, ..: with_path("D:\\Project\\Codex\\v2\\aeroforge-cfd-platform\\backend\\src\\main.rs", Edition2021) }
-   0.110188800s  INFO prepare_target{force=false package_id=aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend) target="aerodynamics-cfd-backend"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\aerodynamics-cfd-backend-73614c6ec11e61c4\test-bin-aerodynamics-cfd-backend`
+   0.589901000s  INFO prepare_target{force=false package_id=aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend) target="aerodynamics-cfd-backend"}: cargo::core::compiler::fingerprint: fingerprint error for aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend)/Check { test: true }/TargetInner { name: "aerodynamics-cfd-backend", doc: true, ..: with_path("D:\\Project\\Codex\\v2\\aeroforge-cfd-platform\\backend\\src\\main.rs", Edition2021) }
+   0.589914600s  INFO prepare_target{force=false package_id=aerodynamics-cfd-backend v0.1.0 (D:\Project\Codex\v2\aeroforge-cfd-platform\backend) target="aerodynamics-cfd-backend"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\.fingerprint\aerodynamics-cfd-backend-73614c6ec11e61c4\test-bin-aerodynamics-cfd-backend`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -3324,79 +1766,29 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
    Compiling proc-macro2 v1.0.106
-    Checking cfg-if v1.0.4
-    Checking windows-link v0.2.1
    Compiling quote v1.0.45
-    Checking pin-project-lite v0.2.17
-    Checking bytes v1.11.1
-    Checking itoa v1.0.18
-    Checking futures-core v0.3.32
    Compiling parking_lot_core v0.9.12
-    Checking smallvec v1.15.1
-    Checking scopeguard v1.2.0
    Compiling serde_core v1.0.228
-    Checking once_cell v1.21.4
-    Checking log v0.4.29
    Compiling httparse v1.10.1
-    Checking slab v0.4.12
-    Checking futures-task v0.3.32
-    Checking mime v0.3.17
    Compiling serde v1.0.228
-    Checking tower-service v0.3.3
-    Checking httpdate v1.0.3
-    Checking windows-sys v0.61.2
-    Checking percent-encoding v2.3.2
-    Checking tower-layer v0.3.3
-    Checking lock_api v0.4.14
    Compiling zmij v1.0.21
-    Checking tracing-core v0.1.36
-error: could not compile `quote` (build script) due to 1 previous error
-warning: build failed, waiting for other jobs to finish...
-   Compiling mime_guess v2.0.5
-    Checking futures-channel v0.3.32
-   Compiling multer v3.1.0
-error: could not compile `proc-macro2` (build script) due to 1 previous error
    Compiling num-traits v0.2.19
-error: could not compile `parking_lot_core` (build script) due to 1 previous error
-    Checking atomic-waker v1.1.2
-   Compiling serde_json v1.0.149
-    Checking sync_wrapper v1.0.2
-    Checking futures-util v0.3.32
-    Checking regex-syntax v0.8.10
-error: could not compile `serde_core` (build script) due to 1 previous error
+   Compiling mime_guess v2.0.5
+   Compiling multer v3.1.0
    Compiling getrandom v0.4.2
-    Checking memchr v2.8.0
-    Checking form_urlencoded v1.2.2
-error: could not compile `serde` (build script) due to 1 previous error
-    Checking encoding_rs v0.8.35
-error: could not compile `httparse` (build script) due to 1 previous error
-    Checking ryu v1.0.23
-    Checking spin v0.9.8
+   Compiling serde_json v1.0.149
    Compiling anyhow v1.0.102
 error: could not compile `multer` (build script) due to 1 previous error
-    Checking unicase v2.9.0
-    Checking lazy_static v1.5.0
+warning: build failed, waiting for other jobs to finish...
 error: could not compile `num-traits` (build script) due to 1 previous error
-    Checking futures-sink v0.3.32
-error: could not compile `zmij` (build script) due to 1 previous error
-    Checking thread_local v1.1.9
+error: could not compile `parking_lot_core` (build script) due to 1 previous error
 error: could not compile `serde_json` (build script) due to 1 previous error
-    Checking matchit v0.8.4
-    Checking http-range-header v0.4.2
-    Checking bitflags v2.11.1
-error: could not compile `mime_guess` (build script) due to 1 previous error
+error: could not compile `quote` (build script) due to 1 previous error
+error: could not compile `serde` (build script) due to 1 previous error
+error: could not compile `zmij` (build script) due to 1 previous error
 error: could not compile `getrandom` (build script) due to 1 previous error
-    Checking sharded-slab v0.1.7
-    Checking tracing v0.1.44
-    Checking tracing-log v0.2.0
-    Checking http v1.4.0
+error: could not compile `proc-macro2` (build script) due to 1 previous error
+error: could not compile `serde_core` (build script) due to 1 previous error
 error: could not compile `anyhow` (build script) due to 1 previous error
-    Checking http-body v1.0.1
-    Checking regex-automata v0.4.14
-    Checking http-body-util v0.1.3
-    Checking axum-core v0.5.6
-    Checking mio v1.2.0
-    Checking socket2 v0.6.3
-    Checking nu-ansi-term v0.50.3
-    Checking matchers v0.2.0
-    Checking tracing-subscriber v0.3.23
+error: could not compile `httparse` (build script) due to 1 previous error
+error: could not compile `mime_guess` (build script) due to 1 previous error
