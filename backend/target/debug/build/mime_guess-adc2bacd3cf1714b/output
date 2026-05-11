@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=D:\Project\Codex\v2\aeroforge-cfd-platform\backend\target\debug\build\mime_guess-adc2bacd3cf1714b\out\mime_types_generated.rs
